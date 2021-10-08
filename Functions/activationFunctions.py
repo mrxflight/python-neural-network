@@ -15,3 +15,12 @@ def sigmoid_prime(x):
     s = sigmoid(x)
     ds = s*(1-s)
     return ds
+
+def binary(x):
+    if x<0.5:
+        return 0
+    else:
+        return 1
+
+def binary_prime(x):
+    return 0   

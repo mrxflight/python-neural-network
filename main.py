@@ -1,1 +1,0 @@
-#this is a basic libary to create and use neural networks in python

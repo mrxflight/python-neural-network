@@ -1,4 +1,4 @@
-from baseLayer import Layer
+from Layers.baseLayer import Layer
 import numpy as np
 
 #inherit from base class Layers

@@ -1,4 +1,4 @@
-from baseLayer import Layer
+from Layers.baseLayer import Layer
 
 class ActivationLayer(Layer):
     def __init__(self, activation, activation_prime):

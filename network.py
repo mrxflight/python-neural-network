@@ -49,7 +49,7 @@ class Network:
                 #backward propagation
                 error = self.loss_prime(y_train[j], output)
                 for layer in reversed(self.layers):
-                    error = layer.lbackward_propagation(error, learning_rate)
+                    error = layer.backward_propagation(error, learning_rate)
 
             #calculate average error on all samples
             err /= samples
