@@ -2,10 +2,10 @@
 import numpy as np
 
 from network import Network
-from Layers.fcLayer import FCLayer
-from Layers.activationLayer import ActivationLayer
-from Functions.activationFunctions import tanh, tanh_prime, sigmoid, sigmoid_prime, binary, binary_prime
-from Functions.lossFunction import mse, mse_prime
+from src.pythonNeuralNetwork.Layers.fcLayer import FCLayer
+from src.pythonNeuralNetwork.Layers.activationLayer import ActivationLayer
+from src.pythonNeuralNetwork.Functions.activationFunctions import tanh, tanh_prime, sigmoid, sigmoid_prime, binary, binary_prime
+from src.pythonNeuralNetwork.Functions.lossFunction import mse, mse_prime
 
 #training data
 x_train = np.array([[[0, 0]], [[0,1]], [[1,0]], [[1,1]]])

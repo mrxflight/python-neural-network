@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: python-neural-network-mrxflight
+Version: 0.0.1
+Summary: basic neural network libary written in python. Created with tutorial from https://towardsdatascience.com/math-neural-network-from-scratch-in-python-d6da9f29ce65
+Home-page: https://github.com/mrxflight/python-neural-network
+Author: mrxflight
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/mrxflight/python-neural-network/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Python Neural Network
+This is a very basic Neural Network Libary written in Python. It was created using the following tutorial https://towardsdatascience.com/math-neural-network-from-scratch-in-python-d6da9f29ce65 and its only use if for educational purposes.
+

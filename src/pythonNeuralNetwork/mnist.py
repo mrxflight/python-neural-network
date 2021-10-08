@@ -1,11 +1,11 @@
 import numpy as np
 
 from network import Network
-from Layers.baseLayer import Layer
-from Layers.fcLayer import FCLayer
-from Layers.activationLayer import ActivationLayer
-from Functions.activationFunctions import tanh, tanh_prime, sigmoid, sigmoid_prime
-from Functions.lossFunction import mse, mse_prime
+from src.pythonNeuralNetwork.Layers.baseLayer import Layer
+from src.pythonNeuralNetwork.Layers.fcLayer import FCLayer
+from src.pythonNeuralNetwork.Layers.activationLayer import ActivationLayer
+from src.pythonNeuralNetwork.Functions.activationFunctions import tanh, tanh_prime, sigmoid, sigmoid_prime
+from src.pythonNeuralNetwork.Functions.lossFunction import mse, mse_prime
 
 from keras.datasets import mnist
 from keras.utils import np_utils
